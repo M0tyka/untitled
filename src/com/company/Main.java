@@ -5,8 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         var myCigan = new Cigan(12,5);
-        System.out.println(myCigan.x());
-        System.out.println(myCigan.y());
+        System.out.println(myCigan.x() * myCigan.y());
         var code = "404";
 
         switch (code) {
